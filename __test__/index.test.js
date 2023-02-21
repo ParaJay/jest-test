@@ -22,7 +22,7 @@ describe("check object", () => {
         expect(obj.name).toBe("object");
     });
 
-    test("expect createObject.name to be 'object'", () => {
+    test("expect createObject.val to be 'none'", () => {
         let obj = index.createObject();
 
         expect(obj.value).toBe("none");
